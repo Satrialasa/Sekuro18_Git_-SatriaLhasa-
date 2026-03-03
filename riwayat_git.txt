@@ -1,6 +1,0 @@
-*   bd27de0 fix: resolve merge conflict
-|\  
-| * 7e8f8af feat: menambahkan versi 1 pada main.cpp
-* | b36f342 feat: menambahkan versi 2 pada main.cpp
-|/  
-* 14f0787 feat: inisialisasi repository git
