@@ -1,0 +1,25 @@
+    1  ls
+    2  cd ../
+    3  ls
+    4  mnt
+    5  cd mnt
+    6  ls
+    7  wsl
+    8  pwd
+    9  ls /home/satria
+   10  whoami
+   11  ls ~
+   12  mkdir -p ~/recovery_ops
+   13  cd ~/recovery_ops
+   14  explorer.exe .
+   15  ls ~
+   16  ls
+   17  find ~ -name "recovered_sector.txt"
+   18  cd ~/recovery_ops
+   19  wget https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+   20  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+   21  rm system_raw.txt
+   22  ls
+   23  cat recovered_sector.txt
+   24  code .
+   25  history | tail -n 30 > history_audit.txt
